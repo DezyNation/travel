@@ -1,0 +1,110 @@
+@media (max-width: 768px) {
+    .hero{
+        margin-top: 5vh;
+        height: auto;
+    }
+    .hero-content{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-title{
+        text-align: center;
+        font-size: 2.5rem;
+        line-height: 2.75rem;
+    }
+    .hero-desc{
+        max-width: 80%;
+        margin-top: 2rem;
+        font-size: .95rem;
+        text-align: center;
+    }
+    .hero-form{
+        margin-top: 0;
+    }
+    .hero-form, .hero-form--row{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    input{
+        margin-bottom: 2rem;
+        width: 90vw;
+        font-size: .8rem;
+    }
+    .hero-form--btn{
+        font-size: .9rem;
+    }
+
+    .benefits-container{
+        padding: 1.5rem 1rem;
+    }
+    .benefits-wrapper{
+        flex-direction: column;
+        height: auto;
+    }
+    .benefits-wrapper--subdiv{
+        width: 100%;
+    }
+    .benefit{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .benefit-img{
+        width: 32px;
+    }
+    .benefit-title{
+        font-size: 1rem;
+        text-align: center;
+        align-self: center;
+    }
+    .benefit-desc{
+        max-width: 100%;
+        font-size: .7rem;
+        text-align: center;
+    }
+
+
+    .packages-wrapper{
+        flex-direction: column;
+    }
+    .package-card{
+        width: 95%;
+        margin: 1rem 0;
+    }
+    .package-title{
+        font-size: 1.2rem;
+    }
+    .package-desc{
+        font-size: .6rem;
+    }
+
+    .package-content--right{
+        margin-left: 1rem;
+        width: auto;
+        display: none;
+    }
+    .package-tenure{
+        width: 100%;
+    }
+    .package-date{
+        font-size: 1rem;
+    }
+
+    .testimonial-card{
+        width: auto;
+    }
+    .testimonial-msg{
+        font-size: .9rem;
+    }
+
+    .home-gallery-btn{
+        width: 80vw;
+    }
+
+}

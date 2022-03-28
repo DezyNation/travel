@@ -1,0 +1,81 @@
+@media (max-width: 768px) {
+
+    .hero{
+        margin: 15% auto 10%;
+    }
+
+    .side-panel{
+        position: fixed;
+        margin-top: auto;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        height: auto;
+        z-index: 50;
+    }
+    .side-panel--heading{
+        padding: 1.2rem .75rem;
+        font-size: 1.2rem;
+    }
+
+    .filters-form,.filters-form input{
+        font-size: 1rem;
+    }
+    .filters-form--submit{
+        margin-top: 3rem;
+        font-size: 1rem;
+    }
+
+    .main-heading--search{
+        padding: unset;
+    }
+
+    .results-div{
+        width: 100%;
+        padding: 1rem;
+    }
+    .results-div::-webkit-scrollbar{
+        display: none;
+    }
+
+    #advanced-search{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 28px;
+        height: auto;
+        display: unset;
+        fill: #2FA4FF;
+        stroke-width: 2;
+        stroke: #2FA4FF;
+    }
+
+    .package-card{
+        height: auto;
+        flex-direction: column;
+    }
+    .package-img{
+        width: 100%;
+        height: 180px;
+        border-radius: 12px 12px 0 0;
+    }
+    .ratings{
+        width: 80%;
+    }
+    .package-content--right{
+        margin-left: .75rem;
+        justify-content: flex-start;
+    }
+    .package-date{
+        font-size: 1.5rem;
+    }
+    .package-tenure{
+        margin-top: .75rem;
+        font-size: 1rem;
+        color: darkslategray;
+    }
+    .package-friends{
+        position: absolute;
+        bottom: 0;
+    }
+}

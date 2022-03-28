@@ -1,0 +1,117 @@
+footer{
+    position: relative;
+    margin-top: auto;
+    padding: 2rem 1rem 0;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.footer-row{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.footer-column{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.footer-heading{
+    position: relative;
+    margin-bottom: .5rem;
+    width: 100%;
+    padding-right: .5rem;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid var(--primcolor);
+    color: var(--primcolor);
+    font-size: .8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .5s ease;
+}
+.down-arrow{
+    transform: rotateZ(-90deg);
+    transition: all .5s ease;
+}
+.footer-link{
+    position: relative;
+    margin-top: 0.75rem;
+    width: 100%;
+    font-size: .75rem;
+    font-weight: 700;
+    color: darkslategray;
+    transition: all .3s ease;
+}
+.footer-link:hover{
+    color: var(--primcolor);
+}
+
+.footer-branding{
+    position: relative;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .9rem;
+    color: var(--primcolor);
+}
+.footer-logo{
+    position: relative;
+    width: auto;
+    height: 80px;
+}
+.footer-desc{
+    max-width: 80%;
+    font-size: .8rem;
+    color: darkslategray;
+}
+
+.social-heading{
+    min-width: 100px;
+    color: #FFF;
+}
+.social{
+    position: relative;
+    width: 100%;
+    color: darkslategray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.social p{
+    text-align: center;
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    .footer-row{
+        flex-direction: column;
+    }
+    .branding-column{
+        width: 90% !important;
+    }
+    .footer-column{
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+    .footer-desc{
+        max-width: 100%;
+    }
+}
