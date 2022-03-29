@@ -160,6 +160,13 @@ section{
     border-radius: 10px;
 }
 
+#advanced-search{
+    display: none;
+}
+#close-mobile-nav{
+    display: none;
+}
+
 .results-wrapper{
     position: relative;
     margin-top: 0;
