@@ -30,7 +30,7 @@ section{
 }
 
 .side-panel{
-    position: fixed;
+    position: absolute;
     top: 10vh;
     right: 0;
     width: 25%;
@@ -225,16 +225,19 @@ section{
 }
 .ratings{
     margin-top: .25rem;
-    width: 20%;
+    width: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .rating-num, .rating-star{
     font-size: .9rem;
     font-weight: 600;
     color: goldenrod;
+}
+.rating-num{
+    margin-left: 1rem;
 }
 
 .package-content--right{

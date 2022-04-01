@@ -114,13 +114,106 @@
         <i class="bi bi-x-circle close-sidebar color-gray" onclick="toggleSidebar()"></i>
     </div>
 
-    <div class="content-div" id="dashboard-content">
+    <div class="pb-5 content-div content-div--active bg-white" id="dashboard-content">
+        <div class="d-flex flex-row flex-wrap align-items-center justify-content-start">
+            <a href="#" class="mx-3 my-2 p-2 d-flex flex-row align-items-center justify-content-between rounded shadow card-small">
+                <div class="rounded card-icon-div gradient-blue-red">
+                    <i class="bi bi-bicycle"></i>
+                </div>
+                <div class="card-content ms-2 d-flex flex-column align-items-end justify-content-center">
+                    <p class="mb-0 card-small--title">TRIPS</p>
+                    <h4 class="card-small-data fw-bold">25</h4>
+                </div>
+            </a>
+            <a href="#" class="mx-3 my-2 p-2 d-flex flex-row align-items-center justify-content-between rounded shadow card-small">
+                <div class="rounded card-icon-div gradient-blue-red">
+                    <i class="bi bi-people-fill"></i>
+                </div>
+                <div class="card-content ms-2 d-flex flex-column align-items-end justify-content-center">
+                    <p class="mb-0 card-small--title">FRIENDS</p>
+                    <h4 class="card-small-data fw-bold">167</h4>
+                </div>
+            </a>
+
+            <!-- For Affiliate Accounts Only -->
+            <a href="#" class="mx-3 my-2 p-2 d-flex flex-row align-items-center justify-content-between rounded shadow card-small">
+                <div class="rounded card-icon-div gradient-blue-red">
+                    <i class="bi bi-cash"></i>
+                </div>
+                <div class="card-content ms-2 d-flex flex-column align-items-end justify-content-center">
+                    <p class="mb-0 card-small--title">WALLET</p>
+                    <h4 class="card-small-data fw-bold">8370</h4>
+                </div>
+            </a>
+            <!-- Above Component For Affiliate Accounts Only -->
+
+        </div>
+        <h5 class="content-title">your recent packages &nbsp;&nbsp; <span><a href="#">(click here to view all)</a></span></h5>
+        <div class="px-2 d-flex flex-row align-items-center justify-content-start flex-wrap">
+
+            <a href="#" class="package-card">
+                <img src="img/bg01.jpg" class="package-img">
+                <div class="package-content">
+                    <div class="package-content--left">
+                        <h1 class="package-title mb-0">Delhi - Manali</h1>
+                        <p class="package-desc mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, libero.</p>
+                        <div class="ratings mb-0">
+                            <div class="rating-star">&starf;&starf;&starf;&starf;&starf;</div>
+                            <p class="rating-num mb-0">5 Reviews</p>
+                        </div>
+                        <br>
+                        <p class="package-starting-price">Paid: <strong>₹3499</strong></p>
+                    </div>
+                    <div class="package-content--right">
+                        <h1 class="package-date mb-0">07 Oct</h1>
+                        <h5 class="package-tenure">3D &nbsp; 2N</h5>
+                        <div class="package-friends">
+                            <img src="img/bg01.jpg" alt="Friend" class="package-friend-profile">
+                            <img src="img/bg01.jpg" alt="Friend" class="package-friend-profile">
+                            <div class="package-friend-profile"><h4 class="mb-0">+</h4></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="package-card">
+                <img src="img/bg01.jpg" class="package-img">
+                <div class="package-content">
+                    <div class="package-content--left">
+                        <h1 class="package-title mb-0">Delhi - Manali</h1>
+                        <p class="package-desc mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, libero.</p>
+                        <div class="ratings mb-0">
+                            <div class="rating-star">&starf;&starf;&starf;&starf;&starf;</div>
+                            <p class="rating-num mb-0">5 Reviews</p>
+                        </div>
+                        <br>
+                        <p class="package-starting-price">Paid: <strong>₹3499</strong></p>
+                    </div>
+                    <div class="package-content--right">
+                        <h1 class="package-date mb-0">07 Oct</h1>
+                        <h5 class="package-tenure">3D &nbsp; 2N</h5>
+                        <div class="package-friends">
+                            <img src="img/bg01.jpg" alt="Friend" class="package-friend-profile">
+                            <img src="img/bg01.jpg" alt="Friend" class="package-friend-profile">
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
         
+        <h5 class="content-title">your recent memories &nbsp;&nbsp; <span><a href="#">(click here to view all)</a></span></h5>
+        <div class="px-2 d-flex flex-row align-items-center justify-content-center flex-wrap">
+            <img src="img/bg01.jpg" alt="Package Name" class="recent-img">
+            <img src="img/bg02.jpg" alt="Package Name" class="recent-img">
+            <img src="img/bg01.jpg" alt="Package Name" class="recent-img">
+            <img src="img/bg02.jpg" alt="Package Name" class="recent-img">
+        </div>
+
     </div>
 
     <footer class="bg-light">
         <div class="container-fluid p-1">
-            <div class="d-flex flex-md-row align-items-start justify-content-space-evenly flex-nowrap flex-column footer-row">
+            <div class="d-flex flex-md-row align-items-start justify-content-evenly flex-nowrap flex-column footer-row">
                 <div class="col footer-column">
                     <div class="footer-logo">
                         <img src="img/bg01.jpg" class="footer-logo-img">
