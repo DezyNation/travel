@@ -96,10 +96,20 @@ a{
 .sidebar-link--active{
     background-color: #FFF;
     color: blue !important;
+    fill: blue !important;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.05), -4px -4px 10px rgba(0, 0, 0, 0.05);
 }
 .sidebar-icon{
     margin-right: 1rem;
+}
+.sidebar-icon--car{
+    width: 16px !important;
+    height: auto;
+    fill: #2FA4FF;
+    transition: fill .3s ease;
+}
+.sidebar-link:hover .sidebar-icon--car{
+    fill: rgb(55, 55, 200);
 }
 .sidebar-icon--text{
     margin: 0 !important;
@@ -160,7 +170,12 @@ a{
     font-size: .9rem;
     color: gray;
 }
-
+.card-small--icon{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    fill: #FFF;
+}
 
 
 
