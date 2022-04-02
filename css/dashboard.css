@@ -9,13 +9,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif, 'Font Awesome 5 Free';
 }
 a{
     text-decoration: none !important;
     transition: all .3s ease-in-out;
 }
-
 
 .gradient-blue-red{
     background: linear-gradient(120deg, blue, red);
@@ -42,9 +41,15 @@ a{
 .sidebar--active{
     margin-left: 0 !important;
 }
+.open-sidebar{
+    position: relative;
+    font-size: 28px;
+    color: #FFF;
+    font-family: 'Font Awesome 5 Free' !important;
+}
 .close-sidebar{
     position: absolute;
-    top: .5rem;
+    top: .75rem;
     right: 1rem;
     padding: 0;
     margin: 0;
@@ -87,7 +92,7 @@ a{
     height: auto;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     border-radius: 8px;
     color: var(--primcolor);
@@ -172,8 +177,7 @@ a{
 }
 .card-small--icon{
     position: relative;
-    width: 32px;
-    height: 32px;
+    font-size: 28px;
     fill: #FFF;
 }
 
